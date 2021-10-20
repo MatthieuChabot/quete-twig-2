@@ -12,7 +12,8 @@
 </head>
 
 <body>
-    {% include 'component/_card.html.twig' %}
-    {% block content %}{% endblock %}
+    {% block content %}
+        {% include 'component/_card.html.twig' %}
+    {% endblock %}
 </body>
 </html>
